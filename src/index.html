@@ -12,20 +12,10 @@
 <body>
 
   <main>
-    <div id="gallery"></div>
     <load src="./1-gallery.html" />
     <load src="./2-form.html" />
   </main>
 
-  <script>const contentContainer = document.getElementById("gallery");
-
-    // Завантаження файлу 1-gallery.html
-    fetch("./1-gallery.html")
-      .then(response => response.text())
-      .then(data => {
-        contentContainer.innerHTML = data;
-      })
-      .catch(error => console.error("Error loading content:", error));</script>
 </body>
 
 </html>
