@@ -1,0 +1,65 @@
+.feedback-form {
+        margin-top: 24px;
+        margin-right: auto;
+        margin-left: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.feedback-form input[type="email"]:focus,
+.feedback-form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.feedback-form textarea {
+    resize: vertical;
+}
+
+/* кнопка */
+.feedback-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #45a049;
+}
+
+.feedback-form button:active {
+    background-color: #3c8e40;
+}
+
+/* повідомлення про помилку */
+.alert {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
