@@ -17,7 +17,6 @@
 <body>
 
   <main>
-    <div id="gallery"></div>
     <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,15 +60,6 @@
 </html>
   </main>
 
-  <script>const contentContainer = document.getElementById("gallery");
-
-    // Завантаження файлу 1-gallery.html
-    fetch("./1-gallery.html")
-      .then(response => response.text())
-      .then(data => {
-        contentContainer.innerHTML = data;
-      })
-      .catch(error => console.error("Error loading content:", error));</script>
 </body>
 
 </html>
